@@ -11,32 +11,34 @@
 <body>
     <header>
         <nav>
-            <a href="welcome.html">
+            <a href="index.html">
                 <img src="photos/avd-logo.png" alt="AVD LOGO" class="avd-logo">
             </a>
-                <div class="contactnav">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="Skills.html">Skills</a>
-                    <a href="Resume.html">Resume</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="CH">
-                    <h1>Contact</h1>
-                </div>
+            <div class="contacth1">
+                <h1>Contact</h1>
+            </div>
+            <div class="navbutton">
+                <div><button><a href="home.html">Home</a></button></div>&nbsp;&nbsp;
+                <div><button><a href="about.html">About</a></button></div>&nbsp;&nbsp;
+                <div><button><a href="Skills.html">Skills</a></button></div>&nbsp;&nbsp;
+                <div><button><a href="Resume.html">Resume</a></button></div>&nbsp;&nbsp;
+                <div><button><a href="contact.html">Contact</a></button></div>&nbsp;
+            </div>
+
         </nav>
+        <hr>
     </header>
     <main>
-        <div class="fcontainer">
+        <div class="contactcontainer">
             <form method="post" action="https://api.slapform.com/NOXiKCj20">
                 <h1>Contact A.V.D!</h1>
                 <input type="text" id="firstName" placeholder="First Name" required>
                 <input type="text" id="lastName" placeholder="Last Name" required>
                 <input type="email" id="email"  placeholder="Email" reaquired>
                 <input type="text"  id="mobile" placeholder="Mobile" required>
-                <h4>Type Your Message Here...</h4>
-                <textarea required></textarea>
-                <input type="submit" value="Send"   id="button">
+                <h4>Text Box</h4>
+                <textarea placeholder="Type Your Message Here..." required></textarea>
+                <input type="submit" value="Send" id="button">
 
             </form>
         </div>
@@ -49,8 +51,9 @@
         <a href="https://www.facebook.com/aadasalla/" target="_blank">
             <img src="photos/icons8-facebook-24.png" alt="Facebook Icon" class="fblogo">
         </a>
+        &nbsp;
         <a href="https://github.com/maloya02?tab=repositories" target="_blank">
-            <img src="photos/icons8-github-25.png" alt="github logo">
+            <img src="photos/icons8-github-25.png" alt="github logo" class="ghlogo">
         </a> 
     </footer>
 
