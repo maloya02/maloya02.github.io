@@ -5,8 +5,6 @@
 }
 
 html { scroll-behavior: smooth;}
-section{border: 1px solid red;}
-div{border: 1px solid red;}
 
 /*Logo*/
 .avd-logo{
@@ -25,7 +23,7 @@ div{border: 1px solid red;}
 header h1{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border: 1px solid red;
+
 }
 
 header{
@@ -45,10 +43,11 @@ header nav a{
 }
 
 .navbutton{
-  border: 2px solid red;
+
   display: flex;
   justify-content: flex-end;
   padding-right: 20px;
+  background: rgba(255, 255, 255, 0.123);
 }
 
 .navbutton a{
@@ -103,7 +102,7 @@ body section {
 /*MAIN*/
 
 main{
-  border: solid rgb(239, 15, 15);
+
   height: 80vh;
 }
 
@@ -211,7 +210,7 @@ footer {
 /*HOME*/
 
 .homecontainer{
-  border: 1px solid red;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
