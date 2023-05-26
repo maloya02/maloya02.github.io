@@ -35,100 +35,108 @@
         text-align: justify;
     }
 
-    body{
+    body {
         background: url(photos/bookshelfbg.jpg);
     }
 
-    body .card{
+    body .card {
         text-align: center;
     }
 
+    .myiloglog {
+        background: linear-gradient(to right, #ff6be6, #1f09e6);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        color: transparent
+    }
 </style>
 
 <body>
     <!--HEADERRRRRRRR-->
-  <header class="sticky-top">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand text-dark" href="index.html"><span class="myiloglog">Grid-C</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-dark" aria-current="page" href="BIB.html" data-bs-toggle="tooltip"
-                data-placement="bottom" title="Bring Into Being">
-                <i class="bi bi-pen"></i> B.I.B.
-              </a>
-            </li>
-            <!--Novel Genre-->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#" role="button"
-                aria-expanded="false">
-                <i class="bi bi-book-half"></i> Novels
-              </a>
-              <ul class="dropdown-menu text-dark">
-                <li><a class="dropdown-item text-dark" href="#">Fantasy</a></li>
-                <li><a class="dropdown-item text-dark" href="#">Video Games</a></li>
-                <li><a class="dropdown-item text-dark" href="#">Kingdom Building</a></li>
-                <li><a class="dropdown-item text-dark" href="#">Slice of life</a></li>
-                <li><a class="dropdown-item text-dark" href="#">Sci-Fi</a></li>
-                <li><a class="dropdown-item text-dark" href="#">Sword & Magic</a></li>
-                <li>
-                  <hr class="dropdown-divider">
-                </li>
-                <li><a class="dropdown-item text-dark" href="#">More...</a></li>
-              </ul>
-            </li>
-            <!--Rankings-->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle text-dark" href="#oltime" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                <i class="bi bi-reception-4"></i> Rankings
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item text-dark" href="#monthlyf">Monthly</a></li>
-                <li><a class="dropdown-item text-dark" href="#weeklyf">Weekly</a></li>
-                <li>
-                  <hr class="dropdown-divider text-dark">
-                </li>
-                <li><a class="dropdown-item text-dark" href="#">All-Time</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="library.html">
-                <i class="bi bi-bookshelf"></i> Library
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active text-dark" aria-current="page" href="#" data-bs-toggle="tooltip"
-                data-placement="bottom" title="Bring Into Being">
-                <i class="bi bi-sun-fill" id="toggleDark"></i>
-                <i class="bi bi-moon-stars-fill"></i>
-              </a>
-            </li>
-          </ul>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand text-dark" href="index.html"><span class="myiloglog">Grid-C</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="BIB.html"
+                                data-bs-toggle="tooltip" data-placement="bottom" title="Bring Into Being">
+                                <i class="bi bi-pen"></i> B.I.B.
+                            </a>
+                        </li>
+                        <!--Novel Genre-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#"
+                                role="button" aria-expanded="false">
+                                <i class="bi bi-book-half"></i> Novels
+                            </a>
+                            <ul class="dropdown-menu text-dark">
+                                <li><a class="dropdown-item text-dark" href="#">Fantasy</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Video Games</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Kingdom Building</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Slice of life</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Sci-Fi</a></li>
+                                <li><a class="dropdown-item text-dark" href="#">Sword & Magic</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-dark" href="#">More...</a></li>
+                            </ul>
+                        </li>
+                        <!--Rankings-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-dark" href="#oltime" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-reception-4"></i> Rankings
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item text-dark" href="#monthlyf">Monthly</a></li>
+                                <li><a class="dropdown-item text-dark" href="#weeklyf">Weekly</a></li>
+                                <li>
+                                    <hr class="dropdown-divider text-dark">
+                                </li>
+                                <li><a class="dropdown-item text-dark" href="#">All-Time</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="library.html">
+                                <i class="bi bi-bookshelf"></i> Library
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active text-dark" aria-current="page" href="#" data-bs-toggle="tooltip"
+                                data-placement="bottom" title="Bring Into Being">
+                                <i class="bi bi-sun-fill" id="toggleDark"></i>
+                                <i class="bi bi-moon-stars-fill"></i>
+                            </a>
+                        </li>
+                    </ul>
 
-          <!--Search Bar-->
-          <form class="d-flex px-2">
-            <input class="form-control me-sm-2" type="search" placeholder="Search">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
-
-
-          <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-            Log In
-          </button>
+                    <!--Search Bar-->
+                    <form class="d-flex px-2">
+                        <input class="form-control me-sm-2" type="search" placeholder="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
 
 
-        </div>
-      </div>
-    </nav>
-  </header>
-  <!--HEADER END-->
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Log In
+                    </button>
+
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--HEADER END-->
 
     <!--About Content-->
     <div class="h-75 d-inline-block py-5" style="width: 500px;">
@@ -137,7 +145,7 @@
                 <h1>About</h1>
             </div>
         </div>
-        
+
         <hr>
         <div class="card">
             <div class="card-body">
