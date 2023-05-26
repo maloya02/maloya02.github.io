@@ -1,0 +1,48 @@
+.card img {
+  height: 400px;
+  width: 288px;
+}
+
+.card-body {
+  height: 380px;
+}
+
+.container {
+
+  justify-content: center;
+  align-items: center;
+
+}
+
+.carousel {
+  width: 600px;
+  height: 400px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.carousel-item img {
+  max-width: 100%;
+  height: 600px;
+}
+
+.modal {
+  z-index: 9999 !important;
+}
+
+.list-group li {
+  width: max-content;
+}
+
+.list-group img {
+  height: 40px;
+  width: 60px;
+}
+
+.myiloglog {
+  background: linear-gradient(to right, #ff6be6, #1f09e6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent
+}

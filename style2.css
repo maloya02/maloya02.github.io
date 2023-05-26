@@ -1,0 +1,24 @@
+.card img{
+    height: 400px;
+    width: 288px;
+  }
+  
+  .card-body{
+    height: 380px;
+  }
+
+  .myiloglog {
+    background: linear-gradient(to right, #ff6be6, #1f09e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent
+  }
+
+  /*BIB STYLE To be continued*/
+  .bibcontainer{
+    text-align: center;
+    height: 60vh;
+    justify-content: center;
+    padding-top: 200px;
+  }
